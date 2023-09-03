@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;600;700;900&display=swap');
+body {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+
+#navbar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fffffe;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+code {
+    font-weight: bold;
+}
+#navbar header {
+    color:#ff8906;
+    border-bottom: .5px solid #0f0e17;
+    padding: 6px 8px 6px 16px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#navbar .nav-link{
+    border-bottom: .5px solid #0f0e17;
+    margin-left: 0;
+    margin-right: 0;
+}
+#navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0f0e17;
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#navbar a:hover {
+    color: #ff8906;
+}
+
+#main-doc {
+    margin-left: 250px;
+    padding: 0px 10px;
+}
+
+hr {
+    color: #0f0e17;
+}
+section {
+        text-align: justify;
+}
+section header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 50px;
+    color: #ff8906;
+}
+
+li {
+    margin-left: 50px;
+}
+
+h4 {
+    color: #f25f4c;
+}
+@media (max-width: 1199px) and (min-width: 769px) {
+    #navbar {
+        justify-content: left;
+    }
+}
